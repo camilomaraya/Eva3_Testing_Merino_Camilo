@@ -8,7 +8,7 @@ El trabajo se realizó desde la perspectiva de un usuario final registrado, sin
 acceso al código fuente, en el marco de la asignatura Testing Aplicado al
 Desarrollo de Sistemas del Instituto Profesional San Sebastián.
 
-**Camilo Meriño** · Septiembre de 2026
+**Camilo Meriño** 
 
 ---
 
