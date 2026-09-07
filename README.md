@@ -50,8 +50,16 @@ ejecutaron 24 veces en dos resoluciones sin variación entre corridas.
 
 ```bash
 npm install
-npx playwright install chromium
-cp .env.example .env    # completar con una cuenta de prueba
+cp .env.example .env
+```
+
+Los scripts usan el Chrome instalado en el equipo (`channel: 'chrome'`), así que
+no hace falta descargar navegadores. Completa el `.env` con una cuenta de prueba
+de despensalo.cl:
+
+```
+DESPENSALO_EMAIL=tu_correo_de_prueba
+DESPENSALO_PASSWORD=tu_clave_de_prueba
 ```
 
 Una pasada de verificación:
