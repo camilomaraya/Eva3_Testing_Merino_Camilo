@@ -1,0 +1,1231 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--repeat-each=3"
+    ],
+    "configFile": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\playwright.config.js",
+    "rootDir": "C:/Users/cmeri/Desktop/qa-despensalo/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/cmeri/Desktop/qa-despensalo/test-results",
+        "repeatEach": 3,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome-escritorio-1920x1080",
+        "name": "chrome-escritorio-1920x1080",
+        "testDir": "C:/Users/cmeri/Desktop/qa-despensalo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/cmeri/Desktop/qa-despensalo/test-results",
+        "repeatEach": 3,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome-movil-390x844",
+        "name": "chrome-movil-390x844",
+        "testDir": "C:/Users/cmeri/Desktop/qa-despensalo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "resultados.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "CP-03-ingresar.spec.js",
+      "file": "CP-03-ingresar.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "CP-03 - Ingreso con credenciales validas",
+          "file": "CP-03-ingresar.spec.js",
+          "line": 17,
+          "column": 6,
+          "specs": [
+            {
+              "title": "CP-03: el ingreso es aceptado y la aplicacion queda disponible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5042,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:46:48.172Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-escritorio-1920x1080\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-escritorio-1920x1080\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b800b589919f838eb596-92c393a1c0d3ac5225b3",
+              "file": "CP-03-ingresar.spec.js",
+              "line": 19,
+              "column": 3
+            },
+            {
+              "title": "CP-03: el ingreso es aceptado y la aplicacion queda disponible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4270,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:12.142Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-escritorio-1920x1080-repeat1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-escritorio-1920x1080-repeat1\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b800b589919f838eb596-41f207fcddc92cefef53",
+              "file": "CP-03-ingresar.spec.js",
+              "line": 19,
+              "column": 3
+            },
+            {
+              "title": "CP-03: el ingreso es aceptado y la aplicacion queda disponible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6403,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:37.322Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-escritorio-1920x1080-repeat2\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-escritorio-1920x1080-repeat2\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b800b589919f838eb596-1735c426fd50d54f6d1a",
+              "file": "CP-03-ingresar.spec.js",
+              "line": 19,
+              "column": 3
+            },
+            {
+              "title": "CP-03: el ingreso es aceptado y la aplicacion queda disponible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6094,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:48:05.934Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-movil-390x844\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-movil-390x844\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b800b589919f838eb596-e7af3ca196f685b955ae",
+              "file": "CP-03-ingresar.spec.js",
+              "line": 19,
+              "column": 3
+            },
+            {
+              "title": "CP-03: el ingreso es aceptado y la aplicacion queda disponible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4734,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:48:36.823Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-movil-390x844-repeat1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-movil-390x844-repeat1\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b800b589919f838eb596-56ceb77b16026eb5ae1c",
+              "file": "CP-03-ingresar.spec.js",
+              "line": 19,
+              "column": 3
+            },
+            {
+              "title": "CP-03: el ingreso es aceptado y la aplicacion queda disponible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5445,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:49:10.066Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-movil-390x844-repeat2\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-03-ingresar-CP-03---Ing-ac8b5-aplicacion-queda-disponible-chrome-movil-390x844-repeat2\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b800b589919f838eb596-791fb136114f6378dd67",
+              "file": "CP-03-ingresar.spec.js",
+              "line": 19,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "CP-04-ingresar-invalido.spec.js",
+      "file": "CP-04-ingresar-invalido.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "CP-04 - Rechazo de credenciales invalidas",
+          "file": "CP-04-ingresar-invalido.spec.js",
+          "line": 16,
+          "column": 6,
+          "specs": [
+            {
+              "title": "CP-04: no permite el ingreso y muestra el error sin traducir (BUG-01)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4152,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:46:53.963Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-escritorio-1920x1080\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-escritorio-1920x1080\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b9cfd83029a4f147b60-3f9b31570951f6969f7e",
+              "file": "CP-04-ingresar-invalido.spec.js",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "CP-04: no permite el ingreso y muestra el error sin traducir (BUG-01)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4132,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:17.256Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-escritorio-1920x1080-repeat1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-escritorio-1920x1080-repeat1\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b9cfd83029a4f147b60-7df7840208edfececb2f",
+              "file": "CP-04-ingresar-invalido.spec.js",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "CP-04: no permite el ingreso y muestra el error sin traducir (BUG-01)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5932,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:44.851Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-escritorio-1920x1080-repeat2\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-escritorio-1920x1080-repeat2\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b9cfd83029a4f147b60-a4c384f6a40658721a62",
+              "file": "CP-04-ingresar-invalido.spec.js",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "CP-04: no permite el ingreso y muestra el error sin traducir (BUG-01)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4272,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:48:13.007Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-movil-390x844\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-movil-390x844\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b9cfd83029a4f147b60-39833d64ac24d1f36750",
+              "file": "CP-04-ingresar-invalido.spec.js",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "CP-04: no permite el ingreso y muestra el error sin traducir (BUG-01)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7735,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:48:42.809Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-movil-390x844-repeat1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-movil-390x844-repeat1\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b9cfd83029a4f147b60-b66381f10c5aac290cf3",
+              "file": "CP-04-ingresar-invalido.spec.js",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "CP-04: no permite el ingreso y muestra el error sin traducir (BUG-01)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4167,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:49:16.519Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-movil-390x844-repeat2\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-04-ingresar-invalido-CP-afe5e--error-sin-traducir-BUG-01--chrome-movil-390x844-repeat2\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8b9cfd83029a4f147b60-132e02676e6c49ed7eaf",
+              "file": "CP-04-ingresar-invalido.spec.js",
+              "line": 18,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "CP-07-codigo-inexistente.spec.js",
+      "file": "CP-07-codigo-inexistente.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "CP-07 - Codigo de barras inexistente",
+          "file": "CP-07-codigo-inexistente.spec.js",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "CP-07: avisa que no encuentra el codigo numerico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5852,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:46:58.422Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-escritorio-1920x1080\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-escritorio-1920x1080\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-a1d946277de136b99b39",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo alfabetico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5631,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:05.046Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-escritorio-1920x1080\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-escritorio-1920x1080\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-3403266fee9db3fc2f43",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo numerico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6148,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:21.790Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-escritorio-1920x1080-repeat1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-escritorio-1920x1080-repeat1\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-28b40c945561fa48eec7",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo alfabetico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5939,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:28.186Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-escritorio-1920x1080-repeat1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-escritorio-1920x1080-repeat1\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-5e850f5c455eec53d767",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo numerico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6656,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:51.433Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-escritorio-1920x1080-repeat2\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-escritorio-1920x1080-repeat2\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-0f438369e5dba1c23545",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo alfabetico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-escritorio-1920x1080",
+                  "projectName": "chrome-escritorio-1920x1080",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5628,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:47:58.548Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-escritorio-1920x1080-repeat2\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-escritorio-1920x1080-repeat2\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-46736afbe20f9f5e037d",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo numerico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8531,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:48:17.792Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-movil-390x844\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-movil-390x844\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-c76b3761ab4b8a482141",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo alfabetico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8619,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:48:26.945Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-movil-390x844\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-movil-390x844\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-7911a8f47ce16aa1e127",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo numerico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8970,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:48:51.307Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-movil-390x844-repeat1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-movil-390x844-repeat1\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-0bb3295adc16bf3b0f19",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo alfabetico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7691,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:49:00.991Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-movil-390x844-repeat1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-movil-390x844-repeat1\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-3b85697b854bff5a38c2",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo numerico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7842,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:49:21.191Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-movil-390x844-repeat2\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-b6177-ncuentra-el-codigo-numerico-chrome-movil-390x844-repeat2\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-172831dbaa5f005da7a6",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "CP-07: avisa que no encuentra el codigo alfabetico",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome-movil-390x844",
+                  "projectName": "chrome-movil-390x844",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7433,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T00:49:29.413Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-movil-390x844-repeat2\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\cmeri\\Desktop\\qa-despensalo\\test-results\\CP-07-codigo-inexistente-C-9adfd-uentra-el-codigo-alfabetico-chrome-movil-390x844-repeat2\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8006fc0b8caa92a54445-76a19b3d31e50c51305e",
+              "file": "CP-07-codigo-inexistente.spec.js",
+              "line": 26,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-07T00:46:47.271Z",
+    "duration": 170134.421,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

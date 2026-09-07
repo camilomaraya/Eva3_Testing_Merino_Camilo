@@ -1,0 +1,14 @@
+{
+  "name": "qa-despensalo",
+  "version": "1.0.0",
+  "description": "Suite de pruebas automatizadas de despensalo.cl - Evaluacion U3",
+  "scripts": {
+    "test": "playwright test",
+    "test:evaluacion": "playwright test --repeat-each=3",
+    "reporte": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "dotenv": "^16.4.5"
+  }
+}
